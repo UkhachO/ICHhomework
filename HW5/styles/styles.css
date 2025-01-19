@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: #FFC0CB;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 0fr;
+    grid-template-areas: "one . two . three ." "four . five . six ." "seven . eight . nine .";
+    row-gap: 60px;
+}
+
+.properties {
+    background-color: #87CEEB;
+    border-radius: 8px;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}

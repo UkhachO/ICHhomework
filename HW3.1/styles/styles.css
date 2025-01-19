@@ -1,0 +1,52 @@
+.form {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    
+}
+
+.div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 250px;
+    border-radius: 16px;
+    gap: 10px;
+}
+
+.parent-name {
+    display: flex;
+    flex-direction: column;;
+    flex-wrap: wrap;
+    width: 85%;
+    gap: 10px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.genders {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 42%;
+}
+
+.newsletter {
+    width: 42%;
+}
+
+.button {
+    width: 20%;
+    align-self: center;
+}

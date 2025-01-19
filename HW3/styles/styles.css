@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.parent {
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 10px;
+    
+}
+
+.child {
+    max-width: 275px;
+    text-align: center;
+
+} 
+
+.img {
+    width: 265px;
+    height: 265px;
+} 
+
+.childposition {
+    margin: 0 auto;
+    
+}

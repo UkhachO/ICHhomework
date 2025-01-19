@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: radial-gradient(ellipse at top, #092992, transparent),
+                radial-gradient(ellipse at bottom, #b41111, transparent);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.button {
+    height: 50px;
+    width: 120px;
+    background-color: #092992;
+    color: #ffffffc7;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #b41111;
+    transition-property: background-color, color;
+    width: 240px;
+    transition: all 1s ease-in;
+    transition-duration: 0.5s;
+    border: 2px solid #b41111;
+    color: #000
+    
+}
+
+.button:active::after {   
+    content: " - Кнопка Нажата";
+}
+
+.button:active {
+    box-shadow: 2px 2px 8px #850000;
+}

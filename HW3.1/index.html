@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+</head>
+<body class="body">
+    <form action="" class="form">
+
+        <div action="" class="div">
+            <fieldset class="parent-name">
+                <legend id="name"><label for="name">Имя</label></legend>
+                <input type="text" name="surname" placeholder="Фамилия" />
+                <input type="text" name="name" placeholder="Имя" />
+            </fieldset>
+
+            <div class="flex-row">
+                <fieldset class="genders">
+                    <legend id="genders"><label for="genders">Пол</label></legend>
+            
+                    <div>
+                        <input type="radio" name="gender" id="Man" />
+                        <label for="Man">Мужской</label>
+                    </div>
+            
+                    <div>
+                        <input type="radio" name="gender" id="Woman" />
+                        <label for="Woman">Женский</label>
+                    </div>
+            
+                    <div>
+                        <input type="radio" name="gender" id="secret" />
+                        <label for="secret">Не хочу говорить</label>
+                    </div>
+                </fieldset>
+            
+                <fieldset class="newsletter">
+                    <legend id="newsletter"><label for="newsletter">Получать рассылку по</label></legend>
+
+                    <div>
+                        <input type="checkbox" id="email" name="email">
+                        <label for="email">Email</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="sms" name="sms">
+                        <label for="sms">SMS</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <button id="button" class="button"><label for="button">Отправить</label></button>
+        </div>
+
+        
+    </form>
+</body>
+</html>
