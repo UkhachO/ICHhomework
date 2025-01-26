@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.hedder {
+    text-transform: uppercase;
+    color: #CCCCCC;
+    font-weight: 700;
+}
+
+.authorization {
+    background-color: #CCCCCC;
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10%;
+    border-radius: 4%;
+}
+
+
+.inputCSS {
+    margin-top: 10%;
+    height: 30%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15%;
+    align-items: center;
+}
+
+#login {
+    height: 35%;
+    width: 80%;
+    border-radius: 0.4rem;
+    border: 1px solid #FFFFFF;
+}
+
+#login:hover {
+    background-color: whitesmoke;
+}
+
+#password {
+    height: 35%;
+    width: 80%;
+    border-radius: 0.4rem;
+    border: 1px solid #FFFFFF;
+}
+
+#password:hover {
+    background-color: whitesmoke;
+}
+
+#button {
+height: 10%;
+width: 35%;
+border-radius: 0.4rem;
+border: 1px solid #FFFFFF;
+}
+
+#button:hover {
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 14px;
+}
